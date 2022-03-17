@@ -16,7 +16,7 @@ body {
 }
 .encabezado div {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   padding: 0.7rem;
   justify-content: center;
 }
@@ -36,7 +36,6 @@ nav {
 }
 nav ul {
   list-style-type: none;
-  border-style: solid;
   display: flex;
   justify-content: space-evenly;
 }
@@ -225,7 +224,7 @@ div a h2 {
 }
 
 .comprar {
-  color: black;
+  color: whitesmoke;
   text-decoration: none;
   padding: 1rem;
   display: flex;
@@ -405,7 +404,7 @@ div a h2 {
   height: 500px;
   padding: 0.5rem;
 }
-/*esto es para768px*/
+/*esto es para768px
 @media only screen and (max-width: 768px) {
   header {
     display: grid;
@@ -475,7 +474,7 @@ div a h2 {
       "gym"
       "media";
   }
-  /*esto es para pagina programas*/
+  /*esto es para pagina programas
   nav ul {
     width: 90%;
     margin: auto;
@@ -531,7 +530,7 @@ div a h2 {
     flex-direction: column;
     justify-content: space-around;
   }
-  /*esto es para pagina tienda*/
+  /*esto es para pagina tienda
   nav ul {
     width: 90%;
     margin: auto;
@@ -579,7 +578,7 @@ div a h2 {
     flex-direction: column;
     justify-content: space-around;
   }
-  /*esto es para paginas gym*/
+  /*esto es para paginas gym*
   nav ul {
     width: 90%;
     margin: auto;
@@ -619,7 +618,7 @@ div a h2 {
     flex-direction: column;
     justify-content: space-around;
   }
-  /*esto es para paginas media*/
+  /*esto es para paginas media*
   nav ul {
     width: 90%;
     margin: auto;
@@ -660,7 +659,7 @@ div a h2 {
     justify-content: space-around;
   }
 
-  /*esto es para320px*/
+  /*esto es para320px*
   @media only screen and (max-width: 320px) {
     header {
       display: grid;
@@ -735,7 +734,7 @@ div a h2 {
         "gym"
         "media";
     }
-    /*esto es para pagina programas*/
+    /*esto es para pagina programas*
     nav ul {
       width: 90%;
       margin: auto;
@@ -862,7 +861,7 @@ div a h2 {
       padding: 0.5rem;
     }
 
-    /*esto es para pagina tienda*/
+    /*esto es para pagina tienda*
     nav ul {
       width: 90%;
       margin: auto;
@@ -934,7 +933,7 @@ div a h2 {
       height: 90vw;
       padding: 0.5rem;
     }
-    /*esto es para paginas gym*/
+    /*esto es para paginas gym*
     nav ul {
       width: 90%;
       margin: auto;
@@ -1016,7 +1015,7 @@ div a h2 {
       height: 90vw;
       padding: 0.5rem;
     }
-    /*esto es para paginas media*/
+    /*esto es para paginas media*
     nav ul {
       width: 90%;
       margin: auto;

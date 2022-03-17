@@ -6,6 +6,8 @@
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,96 +17,98 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 <body>
-    <header>
-        <div class="encabezado animate__animated animate__bounceInLeft">
-           <img src="../imagenes/aguila.jfif" alt="">
-           <div >
+    <header class="container">
+     <div class="row">
+           <div class="encabezado animate__animated animate__bounceInLeft col-xs-12 col-sm-3 col-lg-3">
+              <img src="../imagenes/aguila.jfif" alt="">
+          </div>
+           <div class="col-xs-12 col-sm-9 col-lg-9 p-5" >
               <h1>KAIZEN PROGRAM</h1>
               <h2 class="h2menu">SUMATE A LA MEJORA CONTINUA</h2>
-           </div>
-           </div>
+           </div>   
+      </div>
     </header>
-     <nav> 
-             <div  class="animate__animated animate__fadeInDown">
+     <nav class="container"> 
+             <div  class="animate__animated animate__fadeInDown col-12">
                  <a href="../index.html">INICIO</a>
-                </div> 
-             <ul class="animate__animated animate__fadeInDown">  
-                 <li>
+             </div> 
+             <ul class="animate__animated animate__fadeInDown row">  
+                 <li class="col-xs-12 col-sm-3 col-lg-3">
                      <a class="remeras" href="#remeras1">REMERAS</a>
                  </li> 
-                  <li>
+                  <li class="col-xs-12 col-sm-3 col-lg-3">
                      <a class="buzos" href="#buzos2">BUZOS</a>
                  </li>
-                 <li>
+                 <li class="col-xs-12 col-sm-3 col-lg-3">
                      <a class="pantalones" href="#pantalones3">PANTALONES</a>
                  </li>
-                 <li>
+                 <li class="col-xs-12 col-sm-3 col-lg-3">
                      <a class="merch" href="#mercha4">MERCHANDAICING</a>
                  </li>
              </ul> 
      </nav>
   
     <hr>
-   <main>
-        <div class="remeras1">
-                <a name="remeras1">
+   <main class="container">
+        <div class="remeras1 row ">
+                <a class="col-12" name="remeras1">
                   <h2>REMERAS</h2>
                 </a>
-                <div>
-                    <img src="../imagenes/remerahombre.jpeg" alt="remerahombre">  
-                   <img src="../imagenes/remeramujer.jpeg" alt="remeramujer">
+                <div class=row>
+                    <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/remerahombre.jpeg" alt="remerahombre">  
+                   <img class="col-xs-12 col-sm-6 col-lg-6"  src="../imagenes/remeramujer.jpeg" alt="remeramujer">
                 </div>
-                <div class="comprar">
-                    <label for="sexo">TALLE</label>
-                    <input type="radio" name="TALLE" value="S">S
-                    <input type="radio" name="TALLE" value="XS">XS
-                    <input type="radio" name="TALLE" value="L">L
-                    <input type="radio" name="TALLE" value="XL">XL
-                    <input type="radio" name="TALLE" value="XXL">XXL
+                <div class="comprar row">
+                    <label class="col-12" for="sexo">TALLE</label>
+                    <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="S">S
+                    <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XS">XS
+                    <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="L">L
+                    <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XL">XL
+                    <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XXL">XXL
                 </div>
-                <div>
-                    <input type="submit" value="COMPRAR">
+                <div class="row">
+                    <input class="col-12" type="submit" value="COMPRAR">
                 </div>
         </div>
 
-        <div class="buzos2">
-            <a name="buzos2">
+        <div class="buzos2 row">
+            <a  class="col-12" name="buzos2">
               <h2>BUZOS</h2>
             </a>
-            <div>
-                <img src="../imagenes/" alt="campera">
-                <img src="../imagenes/campera.jpeg" alt="camperainvierno2022">
+            <div class="row">
+                <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/" alt="campera">
+                <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/campera.jpeg" alt="camperainvierno2022">
                
             </div>
-            <div class="comprar">
-                <label for="sexo">TALLE</label>
-                <input type="radio" name="TALLE" value="S">S
-                <input type="radio" name="TALLE" value="XS">XS
-                <input type="radio" name="TALLE" value="L">L
-                <input type="radio" name="TALLE" value="XL">XL
-                <input type="radio" name="TALLE" value="XXL">XXL
+            <div class="comprar row">
+                <label class="col-12" for="sexo">TALLE</label>
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="S">S
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XS">XS
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="L">L
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XL">XL
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XXL">XXL
             </div>
-            <div>
-                <input type="submit" value="COMPRAR">
+            <div class="row">
+                <input class="col-12" type="submit" value="COMPRAR">
             </div>
         </div>
 
 
-        <div class="pantalones3">
-            <a name="pantalones3">
+        <div class="pantalones3 row">
+            <a class="col-12" name="pantalones3">
               <h2>PANTALONES</h2>
             </a>
-            <div>
-                <img src="../imagenes/pantalonlargo (1).jpeg" alt="pantalonlargo">
-               <img src="../imagenes/pantalonlargo (2).jpeg" alt="calsa">
+            <div class="row">
+                <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/pantalonlargo (1).jpeg" alt="pantalonlargo">
+               <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/pantalonlargo (2).jpeg" alt="calsa">
             </div>
-            <div class="comprar">
-                <label for="sexo">TALLE</label>
-                <input type="radio" name="TALLE" value="S">S
-                <input type="radio" name="TALLE" value="XS">XS
-                <input type="radio" name="TALLE" value="L">L
-                <input type="radio" name="TALLE" value="XL">XL
-                <input type="radio" name="TALLE" value="XXL">XXL
+            <div class="comprar row">
+                <label class="col-12" for="sexo">TALLE</label>
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="S">S
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XS">XS
+                <input  class="col-xs-12 col-sm-4 col-lg-2"type="radio" name="TALLE" value="L">L
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XL">XL
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XXL">XXL
             </div>
             <div>
                 <input type="submit" value="COMPRAR">
@@ -112,24 +116,24 @@
         </div>
 
 
-        <div class="mercha4">
-            <a name="mercha4">
+        <div class="mercha4 row">
+            <a class="col-12" name="mercha4">
               <h2>MERCHANDAICING</h2>
             </a>
-            <div>
-                <img src="../imagenes/merch2.jpeg" alt="merch1">
-                <img src="../imagenes/merch1 (1).jpeg" alt="merch2">
+            <div class="row">
+                <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/merch2.jpeg" alt="merch1">
+                <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/merch1 (1).jpeg" alt="merch2">
             </div>
-            <div class="comprar">
-                <label for="sexo">TALLE</label>
-                <input type="radio" name="TALLE" value="S">S
-                <input type="radio" name="TALLE" value="XS">XS
-                <input type="radio" name="TALLE" value="L">L
-                <input type="radio" name="TALLE" value="XL">XL
-                <input type="radio" name="TALLE" value="XXL">XXL
+            <div class="comprar row">
+                <label class="col-12" for="sexo">TALLE</label>
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="S">S
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XS">XS
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="L">L
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XL">XL
+                <input class="col-xs-12 col-sm-4 col-lg-2" type="radio" name="TALLE" value="XXL">XXL
             </div>
-            <div>
-                <input type="submit" value="COMPRAR">
+            <div class="row">
+                <input class="col-12" type="submit" value="COMPRAR">
             </div>
         </div>
         </div>
@@ -144,6 +148,10 @@
 <script>
    new WOW().init();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" 
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
+crossorigin="anonymous"></script>
 
 </body>
 
