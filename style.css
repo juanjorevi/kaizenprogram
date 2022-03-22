@@ -6,6 +6,11 @@
 body {
   background: #0f0f0e;
 }
+
+
+/*encavezado pag */
+
+
 .encabezado {
   display: flex;
   padding: 1rem;
@@ -30,6 +35,11 @@ h1 {
   font-family: "Archivo Black", sans-serif;
   text-align: center;
 }
+
+
+/*nav del index */
+
+
 nav {
   padding: 1rem;
   background-color: black;
@@ -39,19 +49,27 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
 }
-nav ul a {
+/*nav del index */
+nav ul li a  {
   color: rgb(210, 223, 39);
   text-decoration: none;
   padding: 0.07rem;
-  display: block;
+  display:  block;
   font-family: Arial, Helvetica, sans-serif;
+  transition: all 1s ease;
+  text-align: center;
 }
-
-nav ul a:hover {
-  background-color: antiquewhite;
+nav ul li a:hover {
+  background-color: rgb(168, 163, 155);
   color: rgb(10, 10, 10);
+  text-align: center;
+  transform: scale(1.1, 1.1);
   font-weight: bold;
+  border-radius: .8rem;
+  border: solid;
+  border-color: rgb(221, 228, 121);
 }
+/*nav paginas */
 nav div {
   list-style-type: none;
   border-style: solid;
@@ -64,13 +82,19 @@ nav div a {
   padding: 0.07rem;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
+  transition: all 1s ease;
+}
+nav div a:hover {
+  background-color: rgb(168, 163, 155);
+  font-weight: bold;
+  transform: scale(1.1, 1.1);
+  border-radius: .8rem;
+  border: solid;
+  color: rgb(10, 10, 10);
 }
 
-nav div a:hover {
-  background-color: antiquewhite;
-  color: rgb(10, 10, 10);
-  font-weight: bold;
-}
+/*main del index */
+
 .h2menu {
   padding: 10px;
   color: rgb(219, 188, 10);
@@ -115,6 +139,9 @@ nav div a:hover {
 .boton {
   display: inline;
 }
+
+/*main de pag PROGRAMAS */
+
 main {
   display: flex;
   justify-content: space-evenly;
@@ -223,6 +250,8 @@ div a h2 {
   padding: 0.5rem;
 }
 
+/*main de la pag TIENDA  */
+
 .comprar {
   color: whitesmoke;
   text-decoration: none;
@@ -290,6 +319,12 @@ div a h2 {
   height: 600px;
   padding: 0.5rem;
 }
+.btn{
+  color:  rgb(10, 10, 10);
+}
+
+/*main de la pag GYM*/
+
 .instalaciones1 div {
   display: flex;
   justify-content: space-evenly;
@@ -347,6 +382,9 @@ div a h2 {
   height: 500px;
   padding: 0.5rem;
 }
+
+/*main de la pag MEDIA */
+
 .competencias1 div {
   display: flex;
   justify-content: space-evenly;
@@ -404,6 +442,9 @@ div a h2 {
   height: 500px;
   padding: 0.5rem;
 }
+
+
+
 /*esto es para768px
 @media only screen and (max-width: 768px) {
   header {

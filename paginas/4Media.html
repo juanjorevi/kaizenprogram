@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
 <body>
+
     <header class="container">
         <div class="encabezado animate__animated animate__bounceInLeft row">
            <img class="col-xs-12 col-sm-3 col-lg-3" src="../imagenes/aguila.jfif" alt="">
@@ -24,54 +25,136 @@
               <h2 class="h2menu">SUMATE A LA MEJORA CONTINUA</h2>
            </div>
            </div>
-    </header>
-         <nav class="container"> 
-             <div class="animate__animated animate__fadeInDown col-12"><a href="../index.html">INICIO</a></div> 
-             <ul class="animate__animated animate__fadeInDown row">  
-                 <li class="col-xs-12 col-sm-4 col-lg-4"><a class="compe" href="#competencias1">COMPETENCIAS</a></li> 
-                 <li class="col-xs-12 col-sm-4 col-lg-4"><a class="video" href="#videos2">VIDEOS</a></li>
-                 <li class="col-xs-12 col-sm-4 col-lg-4"><a class="atletas" href="#atletas3">ATLETAS</a></li>
-             </ul> 
-        </nav>
+     </header>
+
+  <nav class="navbar navbar-expand-lg animate__animated animate__fadeInDown 
+     "style="background-color:#0f0f0e;">
+    <div class="container-fluid">
+         <a class="navbar-brand" href="../index.html">INICIO</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+         aria-expanded="false"    aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+        <a class="navbar-brand" href="#competencias1">COMPETENCIAS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+      aria-expanded="false"    aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#videos2">VIDEOS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+       data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+       aria-expanded="false" 
+        aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#atletas3">ATLETAS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+         aria-expanded="false" 
+        aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+   </nav>  
+
    <main class="container">
         <div class="competencias1 wow animate__animated animate__fadeInDown row">
                 <a class="col12" name="competencias1">
                   <h2>COMPETENCIAS</h2>
-                </a>
-                <div class="row">
-                    <p class="col-xs-12 col-sm-6 col-lg-6">
-                      la idea es comentar sobre las compes mientras pasa un carrucel de fotos   
-                    </p>
-                 <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/crossfitcompetidor.jpeg" alt="">
-                </div>
+                </a>    
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide  animate__animated animate__fadeInDown" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes/IMG_2575.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>COMPETENCIA 5730 11 Y 12 DE MARZO 2022</h5>
+                <p>PRIMER EVENTO 75 SQUAT+LUNGE, 1 KM RUN + 100 MTRS NADO.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/IMG_3633.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>COMPETENCIA 5730 11 Y 12 DE MARZO 2022</h5>
+                <p>3 EVENTO PREVIO A SALIR A COMPETIR.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/IMG_3664.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>COMPETENCIA 5730 11 Y 12 DE MARZO 2022</h5>
+                <p>JUANJO REALIZANDO BOX JUMP.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/IMG_2579.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>COMPETENCIA 5730 11 Y 12 DE MARZO 2022</h5>
+                <p>AL BORDE DE LA MUERTE CON EL LUCAS.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/IMG_3915.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>COMPETENCIA 5730 11 Y 12 DE MARZO 2022</h5>
+                <p>JUANJO CAMINANDO CON LAS MANOS WOD FINAL.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
 
         <div class="videos2 wow animate__animated animate__fadeInDown row">
             <a class="col-12" name="videos2">
               <h2>VIDEOS</h2>
             </a>
-            <div class="row">
-                <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/class.jpeg" alt="class">
-                <p class="col-xs-12 col-sm-6 col-lg-6">
-                  la idea es comentar sobre los distintos videos mientras pasa un carrucel de fotos      
-                </p>
-               
-            </div>
-        </div>
-
-
-        <div class="atletas3 wow animate__animated animate__fadeInDown row">
+            <iframe width="560" height="600" src="https://www.youtube.com/embed/2Dc16qbNNUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>  
+         <div class="atletas3 wow animate__animated animate__fadeInDown row">
             <a class="col-12" name="atletas3">
               <h2>ATLETAS</h2>
             </a>
-            <div class="row">
-                <p class="col-xs-12 col-sm-6 col-lg-6">
-                  la idea es comentar sobre los atletas mientras pasa un carrucel de fotos     
-                </p>
-             <img class="col-xs-12 col-sm-6 col-lg-6" src="../imagenes/levantamiento.jpeg" alt="levantamiento">
+         </div>
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes/WhatsApp Image 2022-02-19 at 5.15.10 PM (3).jpeg" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item">
+              <img src="../imagenes/IMG_3782.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/IMG_3158.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </div>
   </main>
   <hr>
   <footer>    
