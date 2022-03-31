@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #0f0f0e; }
+
+header .encabezado {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly; }
+  header .encabezado img {
+    padding: 0.3rem; }
+  header .encabezado div {
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    justify-content: center; }
+
+header .imgmenu {
+  display: inline-block;
+  width: 200px;
+  height: 200px; }
+
+header h1 {
+  color: #dbbc0a;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center; }
+
+.navbar {
+  padding: 1rem;
+  background-color: black; }
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; }
+    .navbar ul li a {
+      color: #d2df27;
+      text-decoration: none;
+      padding: 0.07rem;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      transition: all 1s ease;
+      text-align: center; }
+  .navbar ul li a:hover {
+    background-color: #a8a39b;
+    color: #0a0a0a;
+    text-align: center;
+    transform: scale(1.1, 1.1);
+    font-weight: bold;
+    border-radius: 0.8rem;
+    border: solid;
+    border-color: #dde479; }
+
+.h2menu {
+  padding: 10px;
+  color: #dbbc0a;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif; }
+
+.centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #dbbc0a; }
+  .centro p {
+    border-style: solid;
+    width: 600px;
+    height: 500px;
+    color: whitesmoke; }
+  .centro img {
+    width: 400px;
+    height: 500px; }
+
+.centro2 h3 {
+  line-height: 50px;
+  font-family: "Archivo Black", sans-serif;
+  color: #dbbc0a; }
+
+.centro2 legend {
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-family: "Archivo Black", sans-serif;
+  color: #dbbc0a; }
+
+.centro2 form {
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-family: "Archivo Black";
+  color: #dbbc0a; }
+
+.centro2 .boton {
+  display: inline; }
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column; }
+
+div a h2 {
+  color: #dbbc0a;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: underline; }
+
+.crosscompetidor div, .crossclass2 div, .kw3 div, .cardiostrong5 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+  .crosscompetidor div p, .crossclass2 div p, .kw3 div p, .cardiostrong5 div p {
+    border-style: solid;
+    width: 600px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    color: whitesmoke; }
+  .crosscompetidor div img, .crossclass2 div img, .kw3 div img, .cardiostrong5 div img {
+    border-style: solid;
+    width: 600px;
+    height: 500px;
+    padding: 0.5rem; }
+
+.endurance4 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+  .endurance4 div p {
+    border-style: solid;
+    width: 600px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    color: whitesmoke; }
+  .endurance4 div img {
+    border-style: solid;
+    width: 600px;
+    height: 500px;
+    padding: 0.5rem; }
+
+.comprar {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 1rem;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif; }
+  .comprar label {
+    color: #dbbc0a;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    padding: 0.5rem; }
+  .comprar input {
+    color: #dbbc0a;
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    padding: 0.3rem; }
+
+.remeras1 div, .buzos2 div, .pantalones3 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.remeras1 img, .buzos2 img, .pantalones3 img {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  padding: 0.5rem; }
+
+.mercha4 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+  .mercha4 div img {
+    border-style: solid;
+    width: 600px;
+    height: 600px;
+    padding: 0.5rem; }
+
+.btn {
+  color: #0a0a0a; }
+
+.instalaciones1 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.instalaciones1 p {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  color: whitesmoke; }
+
+.instalaciones1 img {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  padding: 0.5rem; }
+
+.servicios2 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.servicios2 p {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  color: whitesmoke; }
+
+.servicios2 img {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  padding: 0.5rem; }
+
+.equipos3 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.equipos3 p {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  color: whitesmoke; }
+
+.equipos3 img {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  padding: 0.5rem; }
+
+.competencias1 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.competencias1 p {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  color: whitesmoke; }
+
+.competencias1 img {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  padding: 0.5rem; }
+
+.videos2 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.videos2 p {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  color: whitesmoke; }
+
+.videos2 img {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  padding: 0.5rem; }
+
+.atletas3 div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; }
+
+.atletas3 p {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  color: whitesmoke; }
+
+.atletas3 img {
+  border-style: solid;
+  width: 600px;
+  height: 500px;
+  padding: 0.5rem; }

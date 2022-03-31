@@ -1,0 +1,16 @@
+$bgcolor: #0f0f0e;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: $bgcolor;
+}
+@import "header";
+@import "navindex";
+@import "mainindex";
+@import "mainprogramas";
+@import "maintienda";
+@import "maingym";
+@import "mainmedia";

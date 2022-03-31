@@ -1,0 +1,63 @@
+main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+div a h2 {
+  color: rgb(219, 188, 10);
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: underline;
+}
+.crosscompetidor {
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    p {
+      border-style: solid;
+      width: 600px;
+      height: 500px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0.5rem;
+      color: whitesmoke;
+    }
+    img {
+      border-style: solid;
+      width: 600px;
+      height: 500px;
+      padding: 0.5rem;
+    }
+  }
+}
+.crossclass2 {
+  @extend .crosscompetidor;
+}
+.kw3 {
+  @extend .crosscompetidor;
+}
+.endurance4 {
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    p {
+      border-style: solid;
+      width: 600px;
+      height: 500px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0.5rem;
+      color: whitesmoke;
+    }
+    img {
+      border-style: solid;
+      width: 600px;
+      height: 500px;
+      padding: 0.5rem;
+    }
+  }
+}
+.cardiostrong5 {
+  @extend .crosscompetidor;
+}

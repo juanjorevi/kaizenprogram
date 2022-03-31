@@ -1,0 +1,45 @@
+.h2menu {
+  padding: 10px;
+  color: rgb(219, 188, 10);
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+}
+.centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: rgb(219, 188, 10);
+  p {
+    border-style: solid;
+    width: 600px;
+    height: 500px;
+    color: whitesmoke;
+  }
+  img {
+    width: 400px;
+    height: 500px;
+  }
+}
+.centro2 {
+  h3 {
+    line-height: 50px;
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(219, 188, 10);
+  }
+
+  legend {
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(219, 188, 10);
+  }
+  form {
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-family: "Archivo Black";
+    color: rgb(219, 188, 10);
+  }
+  .boton {
+    display: inline;
+  }
+}
