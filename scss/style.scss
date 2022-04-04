@@ -8,9 +8,10 @@ body {
   background: $bgcolor;
 }
 
-@import "header";
-@import "mainindex";
-@import "mainprogramas";
-@import "maintienda";
-@import "maingym";
-@import "mainmedia";
+@import "_header";
+@import "_navindex";
+@import "_mainindex";
+@import "_mainprogramas";
+@import "_maintienda";
+@import "_maingym";
+@import "_mainmedia";
