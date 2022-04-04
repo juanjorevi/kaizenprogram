@@ -7,8 +7,8 @@ $bgcolor: #0f0f0e;
 body {
   background: $bgcolor;
 }
+
 @import "header";
-@import "navindex";
 @import "mainindex";
 @import "mainprogramas";
 @import "maintienda";
