@@ -1,0 +1,36 @@
+.footer-container-icons{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 0.1px solid ;
+    margin: 10px;
+    padding: 10px;
+    a{
+        color: rgba(245, 245, 245, 0.932);
+    }
+}
+.footer-img-lista{
+    .footer-img{
+         .footer-mapaSitio-img{
+        display:flex;
+        place-items: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+}
+  .footer-lista{
+      .lista-contenido{
+          li{
+              a{
+                color:rgba(245, 245, 245, 0.932) ;
+                text-decoration: none;
+              }
+          } 
+      }
+  }
+}
+.derechos{
+    p{
+        color: rgba(245, 245, 245, 0.932);
+    }  
+}

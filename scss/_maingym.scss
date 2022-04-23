@@ -6,26 +6,45 @@ $pcolor: whitesmoke;
     flex-direction: row;
   }
   p {
-    border-style: solid;
-    width: 600px;
+    border-style: none;
+    width:500px;
     height: 500px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5rem;
     color: $pcolor;
+    font-size: 20px;
+    line-height: 35px;
   }
-  img {
-    border-style: solid;
-    width: 600px;
-    height: 500px;
-    padding: 0.5rem;
-  }
+  ul{
+    width: 300px;
+    height: 400px;
+    li{
+       color: $pcolor;
+      }
+}
 }
 .instalaciones1 {
   @include cosa();
 }
-.servicios2 {
-  @include cosa();
+.insta{
+  p {
+    border-style: none;
+    width:500px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    color: $pcolor;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  ul{
+    width: 300px;
+    height:300px;
+    li{
+       color: $pcolor;
+      }
+    }
 }
-.equipos3 {
+.servicios2 {
   @include cosa();
 }

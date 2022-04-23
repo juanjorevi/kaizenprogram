@@ -50,7 +50,7 @@ nav {
     transform: scale(1.1, 1.1);
     font-weight: bold;
     border-radius: 0.8rem;
-    border: solid;
+    border: none;
     border-color: #666d00; }
 
 .h2menu {
@@ -65,33 +65,42 @@ nav {
   justify-content: space-around;
   color: #dbbc0a; }
   .centro p {
-    border-style: solid;
-    width: 600px;
+    border-style: none;
+    width: 550px;
     height: 500px;
-    color: whitesmoke; }
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 35px; }
   .centro img {
-    width: 400px;
+    width: 500px;
     height: 500px; }
 
-.centro2 h3 {
-  line-height: 50px;
-  font-family: "Archivo Black", sans-serif;
-  color: #dbbc0a; }
-
-.centro2 legend {
-  letter-spacing: 2px;
-  line-height: 40px;
-  font-family: "Archivo Black", sans-serif;
-  color: #dbbc0a; }
-
-.centro2 form {
-  letter-spacing: 2px;
-  line-height: 25px;
-  font-family: "Archivo Black";
-  color: #dbbc0a; }
-
-.centro2 .boton {
-  display: inline; }
+.centro2 {
+  display: flex;
+  flex-direction: row; }
+  .centro2 h3 {
+    line-height: 50px;
+    font-family: "Archivo Black", sans-serif;
+    color: #dbbc0a; }
+  .centro2 legend {
+    display: flex;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-family: "Archivo Black", sans-serif;
+    color: #dbbc0a;
+    justify-content: center;
+    align-items: center; }
+  .centro2 form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-family: "Archivo Black";
+    color: #dbbc0a; }
+  .centro2 .boton {
+    display: inline; }
 
 main {
   display: flex;
@@ -110,17 +119,15 @@ div a h2 {
   justify-content: space-evenly;
   flex-direction: row; }
   .crosscompetidor div p, .crossclass2 div p, .kw3 div p, .cardiostrong5 div p {
-    border-style: solid;
-    width: 600px;
-    height: 500px;
+    border-style: none;
+    width: 50%;
+    height: 450px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5rem;
     color: whitesmoke; }
   .crosscompetidor div img, .crossclass2 div img, .kw3 div img, .cardiostrong5 div img {
-    border-style: solid;
-    width: 600px;
-    height: 500px;
-    padding: 0.5rem; }
+    width: 50%;
+    height: 500px; }
 
 .endurance4 div {
   display: flex;
@@ -128,13 +135,13 @@ div a h2 {
   flex-direction: row; }
   .endurance4 div p {
     border-style: solid;
-    width: 600px;
-    height: 500px;
+    width: 50%;
+    height: 450px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5rem;
     color: whitesmoke; }
   .endurance4 div img {
-    border-style: solid;
+    border-style: none;
     width: 600px;
     height: 500px;
     padding: 0.5rem; }
@@ -165,7 +172,15 @@ div a h2 {
   border-style: solid;
   width: 600px;
   height: 500px;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  transition: all 1.5s ease; }
+
+.remeras1 img:hover, .buzos2 img:hover, .pantalones3 img:hover {
+  transform: scale(1.1, 1.1);
+  font-weight: bold;
+  border-radius: 0.8rem;
+  border: none;
+  border-color: #666d00; }
 
 .mercha4 div {
   display: flex;
@@ -175,7 +190,14 @@ div a h2 {
     border-style: solid;
     width: 600px;
     height: 600px;
-    padding: 0.5rem; }
+    padding: 0.5rem;
+    transition: all 1.5s ease; }
+  .mercha4 div img:hover {
+    transform: scale(1.1, 1.1);
+    font-weight: bold;
+    border-radius: 0.8rem;
+    border: none;
+    border-color: #666d00; }
 
 .btn {
   color: #0a0a0a; }
@@ -186,18 +208,36 @@ div a h2 {
   flex-direction: row; }
 
 .instalaciones1 p {
-  border-style: solid;
-  width: 600px;
+  border-style: none;
+  width: 500px;
   height: 500px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.5rem;
-  color: whitesmoke; }
+  color: whitesmoke;
+  font-size: 20px;
+  line-height: 35px; }
 
-.instalaciones1 img {
-  border-style: solid;
-  width: 600px;
-  height: 500px;
-  padding: 0.5rem; }
+.instalaciones1 ul {
+  width: 300px;
+  height: 400px; }
+  .instalaciones1 ul li {
+    color: whitesmoke; }
+
+.insta p {
+  border-style: none;
+  width: 500px;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem;
+  color: whitesmoke;
+  font-size: 20px;
+  line-height: 35px; }
+
+.insta ul {
+  width: 300px;
+  height: 300px; }
+  .insta ul li {
+    color: whitesmoke; }
 
 .servicios2 div {
   display: flex;
@@ -205,37 +245,20 @@ div a h2 {
   flex-direction: row; }
 
 .servicios2 p {
-  border-style: solid;
-  width: 600px;
+  border-style: none;
+  width: 500px;
   height: 500px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.5rem;
-  color: whitesmoke; }
+  color: whitesmoke;
+  font-size: 20px;
+  line-height: 35px; }
 
-.servicios2 img {
-  border-style: solid;
-  width: 600px;
-  height: 500px;
-  padding: 0.5rem; }
-
-.equipos3 div {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row; }
-
-.equipos3 p {
-  border-style: solid;
-  width: 600px;
-  height: 500px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 0.5rem;
-  color: whitesmoke; }
-
-.equipos3 img {
-  border-style: solid;
-  width: 600px;
-  height: 500px;
-  padding: 0.5rem; }
+.servicios2 ul {
+  width: 300px;
+  height: 400px; }
+  .servicios2 ul li {
+    color: whitesmoke; }
 
 .competencias1 div {
   display: flex;
@@ -293,3 +316,25 @@ div a h2 {
   width: 600px;
   height: 500px;
   padding: 0.5rem; }
+
+.footer-container-icons {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 0.1px solid;
+  margin: 10px;
+  padding: 10px; }
+  .footer-container-icons a {
+    color: rgba(245, 245, 245, 0.932); }
+
+.footer-img-lista .footer-img .footer-mapaSitio-img {
+  display: flex;
+  place-items: center;
+  margin: 10px;
+  padding: 10px; }
+
+.footer-img-lista .footer-lista .lista-contenido li a {
+  color: rgba(245, 245, 245, 0.932);
+  text-decoration: none; }
+
+.derechos p {
+  color: rgba(245, 245, 245, 0.932); }
